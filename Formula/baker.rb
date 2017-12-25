@@ -5,7 +5,7 @@ class Baker < Formula
   sha256 "f8334f1773346d99068fa4afca2162b19322f978614b1e5aa51e81b169a1057c"
 
   # depends_on "cmake" => :build
-  depends_on :virtualbox
+  depends_on "Caskroom/cask/virtualbox"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
