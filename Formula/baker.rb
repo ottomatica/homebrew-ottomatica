@@ -1,7 +1,7 @@
 class Baker < Formula
   desc "🍞 Quick and easy baking of computing environments."
   homepage "https://docs.getbaker.io/"
-  url "https://github.com/ottomatica/baker-release/files/1612616/baker-macos-0.2.0.tar.gz"
+  url "https://github.com/ottomatica/baker-release/releases/download/0.2.0/baker-macos-0.2.0.tar.gz"
   sha256 "7168ee0960962cf3bff5bae1ad9ab9cf45b05167d4d2d4ef0ad86746d3d08368"
 
   # depends_on "cmake" => :build
