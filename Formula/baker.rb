@@ -1,8 +1,8 @@
 class Baker < Formula
   desc "🍞 Quick and easy baking of computing environments."
   homepage "https://docs.getbaker.io/"
-  url "https://github.com/ottomatica/baker-release/releases/download/0.2.1/baker-macos-0.2.1.tar.gz"
-  sha256 "93c9e5df86f735dbbc31e6c05666cdbda8b1d5dd2b9aa2d1dc3c428009be4779"
+  url "https://github.com/ottomatica/baker-release/releases/download/0.2.2/baker-macos-0.2.2.tar.gz"
+  sha256 "c1e71193db94dfa27befda23611e9aa15b65bf9fb07ff97780d4347f869e6dbb"
 
   # depends_on "cmake" => :build
   # depends_on "Caskroom/cask/virtualbox"
