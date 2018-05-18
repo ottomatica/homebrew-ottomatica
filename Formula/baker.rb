@@ -4,6 +4,11 @@ class Baker < Formula
   url "https://github.com/ottomatica/baker-release/releases/download/0.3.0/baker-macos-0.3.0.tar.gz"
   sha256 "c9f59d139429c385fbdfa2d3d1c48d01467725dd0c776eb41047f9555ddc53a2"
 
+  devel do
+    url "https://github.com/ottomatica/baker-release/releases/download/0.4.0/baker-macos-0.4.0.tar.gz"
+    sha256 "300597633b0d6edbf1ae9d47c899881b61e16892252a80e9474fead4853d205e"
+  end
+
   # depends_on "cmake" => :build
   # depends_on "Caskroom/cask/virtualbox"
 
