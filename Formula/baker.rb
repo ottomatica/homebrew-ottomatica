@@ -6,7 +6,7 @@ class Baker < Formula
 
   devel do
     url "https://github.com/ottomatica/baker-release/releases/download/0.6.1/baker-macos-0.6.1.tar.gz"
-    sha256 "70fe61e7ca6be67bb5951551da9b5707e3751214fbb8306468c8151aaff586bb"
+    sha256 "c5964768272ad6f3395ec3f1f017a0b6849eb15bc0169ee969efd74055963f7f"
   end
 
   # depends_on "cmake" => :build
