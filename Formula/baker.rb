@@ -1,12 +1,14 @@
 class Baker < Formula
   desc "🍞 Quick and easy baking of computing environments."
   homepage "https://docs.getbaker.io/"
-  url "https://github.com/ottomatica/baker-release/releases/download/0.3.0/baker-macos-0.3.0.tar.gz"
-  sha256 "c9f59d139429c385fbdfa2d3d1c48d01467725dd0c776eb41047f9555ddc53a2"
+  url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
+  version "0.6.4"
+  sha256 "dd592e6f95c62fd1c4e6aea0a2c5a244397dca16b2485ecbc34562f6e58b5560"
 
   devel do
     url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
-    sha256 "8b1bd8cbae9be85794cc699cd14719bf7f5888bbe9286d3113f83aae678c389d"
+    version "0.6.4"
+    sha256 "dd592e6f95c62fd1c4e6aea0a2c5a244397dca16b2485ecbc34562f6e58b5560"
   end
 
   # depends_on "cmake" => :build
@@ -22,6 +24,7 @@ class Baker < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     # system "make", "install" # if this fails, try separate make/make install steps
+    # system "pwd >> /tmp/baker.install; ls -l  >> /tmp/baker.install"
     bin.install "baker"
   end
 
