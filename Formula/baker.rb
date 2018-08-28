@@ -2,13 +2,13 @@ class Baker < Formula
   desc "🍞 Quick and easy baking of computing environments."
   homepage "https://docs.getbaker.io/"
   url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
-  version "0.6.10"
-  sha256 "da5e552651ac95c0d0c365b4ac64d76e17f6ea1352ab387f24c815690071c02b"
+  version "0.6.11"
+  sha256 "d4967bc75fb4ef0d0f3a9460190838a335e76b8c41a0b53331bf0b6645f163a5"
 
   devel do
     url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
-    version "0.6.10"
-    sha256 "da5e552651ac95c0d0c365b4ac64d76e17f6ea1352ab387f24c815690071c02b"
+    version "0.6.11"
+    sha256 "d4967bc75fb4ef0d0f3a9460190838a335e76b8c41a0b53331bf0b6645f163a5"
   end
 
   # depends_on "cmake" => :build
