@@ -3,12 +3,12 @@ class Baker < Formula
   homepage "https://docs.getbaker.io/"
   url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
   version "0.6.14"
-  sha256 "22f6c647812f98ea3346cec03a898044649d38b2f9c8c992fa353c6c81b2f118"
+  sha256 "c931096b530f39bfba007fa78f1607220fac67122522e2df30f3431c02754ba5"
 
   devel do
     url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
     version "0.6.14"
-    sha256 "22f6c647812f98ea3346cec03a898044649d38b2f9c8c992fa353c6c81b2f118"
+    sha256 "c931096b530f39bfba007fa78f1607220fac67122522e2df30f3431c02754ba5"
   end
 
   # depends_on "cmake" => :build
