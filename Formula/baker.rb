@@ -5,11 +5,11 @@ class Baker < Formula
   version "0.7.2"
   sha256 "2df70ddbab46f9cac231cb03bbedce814bc06a29d6a5e0455ebcbf174f9148b3"
 
-  devel do
-    url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
-    version "0.7.2"
-    sha256 "2df70ddbab46f9cac231cb03bbedce814bc06a29d6a5e0455ebcbf174f9148b3"
-  end
+  # devel do
+  #   url "https://github.com/ottomatica/baker-release/releases/download/latest-dev/baker-macos-latest.tar.gz"
+  #   version "0.7.2"
+  #   sha256 "2df70ddbab46f9cac231cb03bbedce814bc06a29d6a5e0455ebcbf174f9148b3"
+  # end
 
   # depends_on "cmake" => :build
   # depends_on "Caskroom/cask/virtualbox"
