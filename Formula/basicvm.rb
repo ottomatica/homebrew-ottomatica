@@ -7,9 +7,9 @@ class Basicvm < Formula
   version "1.0.0"
 
   if Hardware::CPU.intel?
-  sha256 "79e3ebabe077865e70479aee669543cd19b80b3f09dffb4138d6ee524de335d1"
+    sha256 "914f89386e31d66471c25e239b2e94482199999b48e8c279304036ba5529c8db"
   else
-  sha256 "fbc8e5fe89d6620c1eb7461a90d12739e5f49f2391c03f1da6b7e98506a7ad5f"
+    sha256 "dba23f2a0734f7f10dcb5642fd2566e889abfb5f272b79146e9df3825e535b71"
   end
 
   # devel do
@@ -19,7 +19,7 @@ class Basicvm < Formula
   # end
 
   def install
-  bin.install "vm"
+    bin.install "vm"
   end
 
   # cask:
