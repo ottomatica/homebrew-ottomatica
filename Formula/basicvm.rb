@@ -4,12 +4,12 @@ class Basicvm < Formula
   desc "Basicvm: creating a VM has started to get unwieldy... let's start back at the \"basics\" 🛠"
   homepage "https://basicvm.com"
   url "https://github.com/ottomatica/homebrew-ottomatica/releases/download/basicvm/basicvm-darwin-#{arch}.tar.gz"
-  version "1.0.0"
+  version "1.0.1"
 
   if Hardware::CPU.intel?
-    sha256 "a54cb606dd2cfba7ed7494bd3b11682207bb066a34a58da9a0d7fba359c85a2d"
+    sha256 "b84c0737d49ff78596a23d7c27ed5cd82f1230d321d7b02a454081c654d38359"
   else
-    sha256 "36eaf2fc09df720d2b4ab0ffdfa3d59fadf3b60b4dccfb1cb9a8921654791f5a"
+    sha256 "c87c815b4a3d95a0bdc3deb270bec293249ee1596eeef5a95deebaa01932ebfa"
   end
 
   # devel do
