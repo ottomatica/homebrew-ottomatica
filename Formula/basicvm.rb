@@ -7,9 +7,9 @@ class Basicvm < Formula
   version "1.0.1"
 
   if Hardware::CPU.intel?
-    sha256 "c5ad171de3f83f618a081fd2663d0c128758118c0fe438513fa345857daedaa7"
+    sha256 "01f25734261253b0def8323445b87f0f5df39358b7e800815a5a376eddd4e89c"
   else
-    sha256 "8b9d66b7f58c5a5d21eefe0ff1044b3608cd26861ab09dcb885b4fa64256d400"
+    sha256 "da28d5807b874273d558e4708dac8c8df8d887ed95c72fe6523b615576af3a6c"
   end
 
   # devel do
